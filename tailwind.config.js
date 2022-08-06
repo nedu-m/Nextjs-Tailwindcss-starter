@@ -8,4 +8,12 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+  darkMode: {
+    dark: {
+      screens: {
+        dark: { raw: "(prefers-color-scheme: dark)" },
+        light: { raw: "(prefers-color-scheme: light)" },
+      },
+    },
+  },
+};

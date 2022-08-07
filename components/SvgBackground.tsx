@@ -1,6 +1,6 @@
 const SvgBackground = () => {
   return (
-    <div>
+    <>
       <svg
         width="1080"
         height="1080"
@@ -34,7 +34,7 @@ const SvgBackground = () => {
           opacity="0.49999999999999994"
         />
       </svg>
-    </div>
+    </>
   );
 };
 

@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Install Playwright
-        run: yarn playwright add --with-deps
+        run: yarn create playwright --with-deps
       - name: Run Jest
         run: yarn run test
       - name: Run Playwright tests

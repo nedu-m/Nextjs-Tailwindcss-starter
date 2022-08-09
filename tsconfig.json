@@ -17,9 +17,15 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["*"]
-    },
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
+      "@hooks/*": ["hooks/*"],
+      "@tests/*": ["tests/*"],
+      "@utils/*": ["utils/*"],
+      "@types/*": ["types/*"],
+      "@libs/*": ["libs/*"],
+    }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./jest-setup.ts"],
   "exclude": ["node_modules"]
 }

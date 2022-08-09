@@ -19,5 +19,5 @@ jobs:
         run: npm init playwright@latest --with-deps
       - name: Run Jest
         run: yarn run test
-      - name: Run Playwright tests
-        run: yarn run test:e2e
+      # - name: Run Playwright tests
+      #   run: yarn run test:e2e
